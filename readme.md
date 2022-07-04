@@ -1,9 +1,10 @@
-To start the Application run 
+### Required installation: Docker 
+
+### To start the Application ###
 docker compose up 
 
-Required Installation: Docker
+### Querying endpoints with curl #####
 
-How to query the endpoints with curl
-GET: curl http://localhost:8090/list
+> 1. GET: curl http://localhost:8090/list
 
-POST: curl -d '{"key":"some key", "value":"some value"}' -H 'Content-Type: application/json' http://localhost:8090/add
+> 2. POST: curl -d '{"key":"some key", "value":"some value"}' -H 'Content-Type: application/json' http://localhost:8090/add
